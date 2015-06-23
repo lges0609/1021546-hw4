@@ -4,3 +4,6 @@
 ###在多核心系統的平行執行
 ![DEMO](./照片/Figure4.4.png)
 ####藉由講義 lecture_4_multithreaded programming P11
+
+##Concurrency
+##Parallelism
