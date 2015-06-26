@@ -32,3 +32,4 @@
 
 ##Parallelism
 ------
+>藉由 [wiki](https://en.wikipedia.org/wiki/Parallel_computing)
