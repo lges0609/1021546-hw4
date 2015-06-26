@@ -34,6 +34,7 @@ PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor 
 
 並行控制必須在多線程環境中被應用，以確保行動是正確行為和結果為一致性，理想上影響性能盡可能少。
 >藉由 [quora](http://www.quora.com/Concurrency-computer-science)
+
 Parallelism
 ------
 平行計算（parallel computing）一般是指許多指令得以同時進行的計算模式。在同時進行的前提下，可以將計算的過程分解成小部份，之後以並行(concurrently)方式來加以解決。
