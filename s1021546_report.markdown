@@ -41,3 +41,7 @@ PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor 
 
 電腦軟體可以被分成數個運算步驟來執行。為了解決某個特定問題，軟體採用某個演算法，以一連串指令執行來完成。傳統上，這些指令都被送至單一的中央處理器，以循序方式執行完成。在這種處理方式下，單一時間中，只有單一指令被執行。平行運算採用了多個運算單元，同時執行，以解決問題。
 >藉由 [wiki](https://en.wikipedia.org/wiki/Parallel_computing)
+
+
+##Difference between Parallel and Concurrent
+------
