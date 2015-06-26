@@ -27,7 +27,7 @@ Concurrency
 在同一個處理器中執行，或在不同的處理器執行。
 
 一些數理模型已經為解決一般的並行計算問題而發展，包括佩特里網(Petri nets), 進程演算(process calculi), 
-PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor model) and the Reo Coordination Language.
+PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor model) 和 the Reo Coordination Language.
 >藉由 [wiki](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
 
 
