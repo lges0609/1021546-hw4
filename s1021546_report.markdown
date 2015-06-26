@@ -16,7 +16,7 @@
 **如果一個系統能同時執行一個以上的任務時就是平行; 反之,一個並行系統藉由允許所有的任務有進展來支援一個以上的任務**
 **因此,有可能有並行但沒有平行, 在SMP和多核心架構來臨前,大部分的電腦系統只有一個單一個處理器,**
 **CPU 排班器被設計成藉由快速地在系統的行程間切換來提供並行的錯覺,因此允許每一個行程有進展,** 
-**這些行程並行地執行,但不是平行**
+**這些行程並行地執行,但不是平行。**
 
 >藉由課本 4.2 節
 
@@ -47,33 +47,33 @@ Parallelism
 並行(Concurrency)和平行(parallelism)的不同之處，他們解決並引起的問題，但它們不是獨立的。
 
 ###並行(Concurrency)
-Executing two tasks concurrently means that individual steps of both tasks are executed in an interleaved fashion. If you disregard parallelism, you can assume that only one statement is executed at any point in time, but you have (a priori) no guarantee which task gets to execute the next step.
+執行兩個任務同時意味著這兩個任務的各個步驟以交錯的方式被執行。如果你忽視平行化，可以假定只有一個指令(statements)在任意時間點執行的，但你必須（先前）不能保證它的任務得到執行下一步。
 
-####This is useful in some regards:
-* Clearer programming of independent tasks in one program.
-* Allows to deal with IO while computing (e.g. in GUI).
-* Allows for execution of more than one program at a time (concurrency on OS level).
+####在一些方面有用：
+* 在一個程序中更清晰的程式設計獨立任務。
+* 當在計算時，允許處理I/O(例如:在 圖形使用者介面(GUI))。
+* 在一個時間裡，允許執行多個程序（並行在OS層面）。
 
 
-####Some of the main challenges are:
-* Maintain data consistency.
-* Avoid deadlocks and livelocks.
-* Determine precise semantics of concurrent processes.
-* Determine static properties that ensure correctness.
+####一些主要挑戰是：
+* 維持數據的一致性。
+* 避免死鎖(deadlock)和活鎖(livelock)。
+* 確定並行進程的精確含義(semantics)。
+* 確定靜態(static)屬性，確保正確性。
 
 
 ###平行(Parallelism)
-Executing two tasks in parallel means that statements are executed at the same time. 
+平行執行的兩個任務是指指令(statements)在同一時間執行。
 
-####This is mainly useful for:
-* Improve system throughput by executing programs in parallel (e.g. on multi core systems).
-* Improve runtime of individual programs by utilising multiple CPUs at once.
-* Utilise IO on many machines (e.g. distributed databases).
+####在一些方面有用：
+* 藉由執行平行程序提高系統的輸送量(throughput)（例如，在多核心系統）。
+* 通過利用多個CPU同時提高個人的程序運行時間。
+* 使用I/O在許多機器上(例如:分佈式數據庫(distributed databases))。
 
-####Key challenges include:
-* Partition problems that allow and develop algorithms that can employ parallelism.
-* Minimise dependencies and communication among the computation units.
-* All the problems brought by concurrency: at least from the point of view of memory, parallel programs look like concurrent   ones due to serialisation of memory accesses.
-* Deal with sub-optimal hardware support.
+####一些主要挑戰包含：
+* 分區的問題(Partition problems)，可以採用平行。
+* 盡量減少和計算單位之間的依賴關係和溝通。
+* 所有並行帶來的問題：從記憶體的觀點，由於記憶體存取系列化(serialisation)，平行程序看起來像並行程序。
+* 處理次優(sub-optimal)硬體的支援。
 
 >藉由 [stackexchange](http://cs.stackexchange.com/questions/19987/difference-between-parallel-and-concurrent-programming)
