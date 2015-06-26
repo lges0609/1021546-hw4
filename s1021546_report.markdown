@@ -27,7 +27,7 @@
 並行計算可能會在在具備多核心的同一個晶片中複合執行，以優先分時執行緒(preemptively time-shared threads)
 在同一個處理器中執行，或在不同的處理器執行。
 
-一些數理模型已經為解決一般的並行計算問題而發展，包括
+一些數理模型已經為解決一般的並行計算問題而發展，包括佩特里網(Petri nets),進程演算(process calculi), PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor model) and the Reo Coordination Language.
 >藉由 [wiki](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
 
 
