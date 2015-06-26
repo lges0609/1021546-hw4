@@ -30,6 +30,7 @@ Concurrency
 PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor model) 和 the Reo Coordination Language.
 >藉由 [wiki](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
 
+
 並行常見的例子是當多個用戶同時存取同一個數據庫實體，在缺乏並行控制通常會導致返還腐敗的信息給用戶。
 
 並行控制必須在多線程環境中被應用，以確保行動是正確行為和結果為一致性，理想上影響性能盡可能少。
