@@ -54,29 +54,29 @@ Executing two tasks concurrently means that individual steps of both tasks are e
 This is useful in some regards:
 
 Clearer programming of independent tasks in one program.
-*Allows to deal with IO while computing (e.g. in GUI).
-*Allows for execution of more than one program at a time (concurrency on OS level).
+* Allows to deal with IO while computing (e.g. in GUI).
+* Allows for execution of more than one program at a time (concurrency on OS level).
 
 
 Some of the main challenges are:
 
-*Maintain data consistency.
-*Avoid deadlocks and livelocks.
-*Determine precise semantics of concurrent processes.
-*Determine static properties that ensure correctness.
+* Maintain data consistency.
+* Avoid deadlocks and livelocks.
+* Determine precise semantics of concurrent processes.
+* Determine static properties that ensure correctness.
 
 
 平行(Parallelism)
 
 Executing two tasks in parallel means that statements are executed at the same time. This is mainly useful for:
 
-*Improve system throughput by executing programs in parallel (e.g. on multi core systems).
-*Improve runtime of individual programs by utilising multiple CPUs at once.
-*Utilise IO on many machines (e.g. distributed databases).
+* Improve system throughput by executing programs in parallel (e.g. on multi core systems).
+* Improve runtime of individual programs by utilising multiple CPUs at once.
+* Utilise IO on many machines (e.g. distributed databases).
 
 Key challenges include:
 
-*Partition problems that allow and develop algorithms that can employ parallelism.
-*Minimise dependencies and communication among the computation units.
-*All the problems brought by concurrency: at least from the point of view of memory, parallel programs look like concurrent   ones due to serialisation of memory accesses.
-*Deal with sub-optimal hardware support.
+* Partition problems that allow and develop algorithms that can employ parallelism.
+* Minimise dependencies and communication among the computation units.
+* All the problems brought by concurrency: at least from the point of view of memory, parallel programs look like concurrent   ones due to serialisation of memory accesses.
+* Deal with sub-optimal hardware support.
