@@ -23,6 +23,7 @@
 ##Concurrency
 ------
 ======
+並行性(Concurrency)是指在一個系統中，擁有多個計算，這些計算有同時執行的特性，而且他們之間有著潛在的互動。
 >藉由 [wiki](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
 
 
