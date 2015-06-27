@@ -28,12 +28,14 @@ Concurrency
 
 一些數理模型已經為解決一般的並行計算問題而發展，包括佩特里網(Petri nets), 進程演算(process calculi), 
 PRAM模型(the Parallel Random Access Machine model), 參與者模式(the Actor model) 和 the Reo Coordination Language.
+
 >藉由 [wiki](https://en.wikipedia.org/wiki/Concurrency_(computer_science))
 
 
 並行常見的例子是當多個用戶同時存取同一個數據庫實體，在缺乏並行控制通常會導致返還腐敗的信息給用戶。
 
 並行控制必須在多線程環境中被應用，以確保行動是正確行為和結果為一致性，理想上影響性能盡可能少。
+
 >藉由 [quora](http://www.quora.com/Concurrency-computer-science)
 
 Parallelism
@@ -43,6 +45,10 @@ Parallelism
 並行已經採用了多年，主要是在高性能計算，但有興趣在於它近來成長由於物理限制防止頻率縮放。隨著功率消耗（和因此的熱產生）通過計算機已成為一個關注近年來，並行計算已經成為在計算機體系結構中的主導模式，主要是在多核心處理器的形式。
 
 電腦軟體可以被分成數個運算步驟來執行。為了解決某個特定問題，軟體採用某個演算法，以一連串指令執行來完成。傳統上，這些指令都被送至單一的中央處理器，以循序方式執行完成。在這種處理方式下，單一時間中，只有單一指令被執行。平行運算採用了多個運算單元，同時執行，以解決問題。
+
+並行計算機程序比按順序的更難寫，因為並行引入了幾個新類潛在的軟體缺陷，其中競爭情況(race condition)是最常見的。
+不同的子任務(subtasks)之間的通信和同步通常是一些以獲得良好的並行程序性能的最大障礙。
+
 >藉由 [wiki](https://en.wikipedia.org/wiki/Parallel_computing)
 
 
